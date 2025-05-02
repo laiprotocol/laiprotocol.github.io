@@ -4,13 +4,16 @@ tagline: 'LAI Protocol Foundation'
 description: 'Official website of the LAI Protocol Foundation'
 url: https://laiprotocol.org
 baseurl: ''
+encoding: UTF-8
+
 
 # Hyde theme settings
-theme: jekyll-theme-hyde
+remote_theme: poole/hyde@v2.1.0
 sidebar_sticky: true
 
 # Custom CSS
 custom_css: /assets/css/custom.css
+favicon: /assets/favicon.ico
 
 # Build settings
 markdown: kramdown
@@ -21,16 +24,17 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Author information
 author:
   name: 'LAI Protocol Foundation'
 
 # Navigation
-pages_list:
-  About: '/about/'
-  Blog: '/blog/'
-  Contact: '/contact/'
+#pages_list:
+#  About: '/about/'
+#  Blog: '/blog/'
+#  Contact: '/contact/'
 
 # Custom variables
 version: 1.0.0
