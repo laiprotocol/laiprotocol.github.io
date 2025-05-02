@@ -1,0 +1,61 @@
+/* Custom styles for LAI Protocol website */
+
+/* Custom colors */
+:root {
+  --lai-primary: #0066cc;
+  --lai-secondary: #003366;
+  --lai-accent: #ff9900;
+}
+
+/* Override theme colors */
+.sidebar {
+  background-color: var(--lai-secondary);
+}
+
+.sidebar-about h1 {
+  color: white;
+}
+
+.content a {
+  color: var(--lai-primary);
+}
+
+.content a:hover {
+  color: var(--lai-accent);
+}
+
+/* Custom styles for posts */
+.post-title {
+  margin-bottom: 0.5rem;
+}
+
+.post-date {
+  display: block;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+}
+
+/* Custom styles for buttons */
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  background-color: var(--lai-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--lai-accent);
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 48em) {
+  .sidebar {
+    padding: 1rem;
+  }
+}

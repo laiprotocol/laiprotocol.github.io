@@ -1,0 +1,38 @@
+# Site settings
+title: LAI Protocol
+tagline: 'LAI Protocol Foundation'
+description: 'Official website of the LAI Protocol Foundation'
+url: https://laiprotocol.org
+baseurl: ''
+
+# Hyde theme settings
+theme: jekyll-theme-hyde
+sidebar_sticky: true
+
+# Custom CSS
+custom_css: /assets/css/custom.css
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+
+# Author information
+author:
+  name: 'LAI Protocol Foundation'
+
+# Navigation
+pages_list:
+  About: '/about/'
+  Blog: '/blog/'
+  Contact: '/contact/'
+
+# Custom variables
+version: 1.0.0
+github:
+  repo: https://github.com/laiprotocol
