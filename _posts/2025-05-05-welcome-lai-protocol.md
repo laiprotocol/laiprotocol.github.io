@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to LAI Protocol"
-date: 2025-05-01 12:00:00 -0000
+date: 2025-05-05 12:00:00 -0000
 categories: [announcement]
 ---
 
